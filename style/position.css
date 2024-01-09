@@ -12,10 +12,10 @@
     position: absolute;
     top:0px;
 } */
-/* .two{
+.two{
     position: sticky;
     top: 0;
-} */
+}
 .dummy{
     width: 500px;
     height: 250px;
@@ -25,4 +25,16 @@
     width: 500px;
     height: 250px;
     border: 2px solid blue;
+}
+p::first-letter{
+    font-size: 2em;
+}
+p::first-line{
+    background-color: red;
+}
+p::selection{
+    background-color: gray;
+}
+input::placeholder{
+    color: red;
 }
