@@ -1,0 +1,21 @@
+h3{
+    color: peru;
+}
+/* hover means mouse over */
+h3:hover{
+    color: tomato;
+    background-color: skyblue;
+}
+input:focus{
+    color: blue;
+    padding-left: 15px;
+}
+a:visited{
+    color: red;
+}
+/* li:last-child{
+    color: red;
+} */
+li:nth-child(2n+1){ /* or (3n+1) */
+    color: red;
+}

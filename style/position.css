@@ -1,0 +1,28 @@
+.box{
+    border: 2px dotted plum;
+    width: 500px;
+}
+/* .two{
+    position: relative;
+    left: 50px;
+    top: 40px;
+} */
+
+/* .two{
+    position: absolute;
+    top:0px;
+} */
+/* .two{
+    position: sticky;
+    top: 0;
+} */
+.dummy{
+    width: 500px;
+    height: 250px;
+    border: 1px solid red;
+}
+.dymmy2nd{
+    width: 500px;
+    height: 250px;
+    border: 2px solid blue;
+}
